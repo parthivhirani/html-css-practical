@@ -35,7 +35,7 @@ body {
 .content2 {
     width: 270px;
     height: 400px;
-    margin: 10px 100px 10px 0px;
+    margin: 10px 102px 10px 0px;
     float: right;
     background-color: white;
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -50,6 +50,16 @@ body {
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.content0 {
+    width: 1687px;
+    height: 300px;
+    margin: 7px 100px 10px 100px;
+    float: left;
+    background-color: white;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
 .nav1 {
     list-style-type: none;
     text-align: center;
@@ -61,6 +71,7 @@ body {
     display: inline-block;
     font-size: 20px;
     padding: 20px;
+    margin-top: -5px;
     vertical-align: top;
 }
 
@@ -74,7 +85,7 @@ body {
   
 .nav1 button {
     padding: 6px 10px;
-    vertical-align: top;
+    vertical-align: middle;
     margin-right: 16px;
     background: white;
     font-size: 17px;
@@ -88,10 +99,9 @@ body {
 
 .loginbtn {
     width: 150px;
-    height: 30px;
+    height: 40px;
     background-color: white;
     color: #2874f0;
-    margin-left: 100px;
 }
  
 .dropdown .dropbtn {
@@ -107,7 +117,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 270px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -187,21 +197,29 @@ table tr td a:hover .fa {
     text-decoration: none;
     background-color: #2874f0;
     padding: 11px 21px;
-    margin-left: 900px;
+    margin-left: 880px;
     border-radius: 3px;
     color: white;
     margin-top: 20px;
     float: right;
 }
 
+.c1-head a:hover, .c3-head a:hover {
+    background-color: white;
+    border: 1px solid #2874f0;
+    color: #2874f0;
+}
+
 .c3-head {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .title1 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 28px;
     padding-left: 20px;
+    padding-top: 15px;
     float: left;
 }
 
@@ -220,13 +238,6 @@ table tr td a:hover .fa {
     color: white;
     margin: -50px 35px 0 1535px;
     float: right;
-}
-
-
-.card {
-    width: 19.7%;
-    height: 19rem;
-    text-align: center;
 }
   
 .card:hover img, .card1:hover img {
